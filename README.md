@@ -1,8 +1,4 @@
-# simu_code
 
-This folder keeps only the code that reproduces the numerical figures used in the current paper draft. I left out cached outputs, copied figure files, exploratory notebooks, and the slide-style schematic sources from `ppt`, since those are not part of the simulation package we want to release.
-
-## Layout
 
 `main_text/davies_benchmark` contains the Davies many-body benchmark behind Fig. 2 in the main text. Running `python generate_davies_many_body_figures.py` creates `davies_many_body_bundle_panels.pdf` and `davies_many_body_mixing_concentration.pdf` inside the local `outputs` folder.
 
