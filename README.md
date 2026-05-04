@@ -78,20 +78,7 @@ This baseline is kept at fixed rate to separate the overlap mechanism from gap-c
 
 Fixed-rate many-body boundary-supported baseline used in the current Supplemental Material, **Sec. S8.2** and **Figs. S7–S8**. The folder name is historical and refers to an older appendix numbering.
 
-Run:
 
-```bash
-cd supplement/S18_boundary_fixed_rate
-python generate_boundary_fixed_rate_figures.py
-```
-
-The script writes the following files to the local `outputs` directory:
-
-- `open_gap_constant_bundle_3x2.pdf`
-- `open_gap_constant_linear_separation.pdf`
-- small summary tables in the local `outputs` directory
-
-This example keeps the boundary rate fixed, with the displayed branch having a nonclosing gap. The growing separation is therefore tied to the shrinking typical boundary overlap rather than to a vanishing relaxation rate. The reported worst-case numerical benchmark is obtained by scanning the computational-basis product states in the diagonal sector, as described in the Supplemental Material.
 
 ## Dependencies
 
